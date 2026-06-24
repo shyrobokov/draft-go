@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Draft &amp; Go | Разливное пиво и напитки</title>
+    <meta
+      name="description"
+      content="Draft & Go: разливное пиво, spritz, винные коктейли, квас и лимонад."
+    >
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='16' y='14' width='32' height='36' rx='7' fill='%23152921'/%3E%3Cpath d='M22 22h20v7H22zM22 34h14v7H22z' fill='%23f0b625'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Главная навигация">
+      <a class="brand" href="#top" aria-label="Draft and Go">
+        <span class="brand-mark" aria-hidden="true">D&amp;G</span>
+        <span class="brand-text">Draft &amp; Go</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#catalog" data-i18n="navCatalog">Каталог</a>
+        <a href="#visit" data-i18n="navContacts">Контакты</a>
+      </nav>
+      <div class="language-switcher" aria-label="Выбор языка">
+        <button class="language-button active" type="button" data-lang="ru" aria-pressed="true">RU</button>
+        <button class="language-button" type="button" data-lang="ro" aria-pressed="false">RO</button>
+        <button class="language-button" type="button" data-lang="uk" aria-pressed="false">UA</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero poster-hero hero-variant-1" aria-labelledby="hero-title">
+        <div class="variant-switcher" aria-label="Варианты главной вывески">
+          <button class="variant-button active" type="button" data-variant="1" aria-pressed="true">Вариант 1</button>
+          <button class="variant-button" type="button" data-variant="2" aria-pressed="false">Вариант 2</button>
+          <button class="variant-button" type="button" data-variant="3" aria-pressed="false">Вариант 3</button>
+          <button class="variant-button" type="button" data-variant="4" aria-pressed="false">Вариант 4</button>
+        </div>
+        <div class="poster-frame">
+          <div class="poster-chip chip-good">Good times</div>
+          <div class="poster-chip chip-tap">On tap!</div>
+          <div class="poster-chip chip-cold">Cold<br>draft</div>
+          <div class="poster-chip chip-wine">Beer</div>
+          <div class="poster-chip chip-cocktails">Spritz</div>
+          <div class="poster-chip chip-snacks">Kegs</div>
+          <div class="poster-chip chip-join">Come in<br>&amp; enjoy!</div>
+
+          <div class="poster-center" aria-hidden="true">
+            <svg class="poster-illustration" viewBox="0 0 520 460" role="img">
+              <path class="poster-rays" d="M260 35a215 215 0 1 1-.1 0" />
+              <g class="barrels barrels-back">
+                <g class="barrel barrel-left">
+                  <path class="barrel-body" d="M64 165c16-34 98-34 114 0v150c-16 34-98 34-114 0z" />
+                  <path class="barrel-head" d="M64 165c16 34 98 34 114 0" />
+                  <path class="barrel-head bottom" d="M64 315c16 34 98 34 114 0" />
+                  <path class="barrel-band" d="M65 204h112M65 276h112" />
+                  <path class="wood-line" d="M96 151v184M126 149v188M156 158v170" />
+                </g>
+                <g class="barrel barrel-right">
+                  <path class="barrel-body" d="M342 165c16-34 98-34 114 0v150c-16 34-98 34-114 0z" />
+                  <path class="barrel-head" d="M342 165c16 34 98 34 114 0" />
+                  <path class="barrel-head bottom" d="M342 315c16 34 98 34 114 0" />
+                  <path class="barrel-band" d="M343 204h112M343 276h112" />
+                  <path class="wood-line" d="M374 151v184M404 149v188M434 158v170" />
+                </g>
+              </g>
+              <g class="barrels barrels-front">
+                <g class="barrel barrel-main">
+                  <path class="barrel-body" d="M161 112c28-48 170-48 198 0v214c-28 50-170 50-198 0z" />
+                  <path class="barrel-head" d="M161 112c28 48 170 48 198 0" />
+                  <path class="barrel-head bottom" d="M161 326c28 50 170 50 198 0" />
+                  <path class="barrel-band" d="M162 160h196M162 282h196" />
+                  <path class="wood-line" d="M204 91v257M241 82v277M279 82v277M316 91v257" />
+                  <circle class="barrel-plug" cx="260" cy="220" r="28" />
+                  <path class="tap-mark" d="M238 220h44M260 198v44" />
+                </g>
+                <path class="keg-shadow" d="M118 366c78 32 222 35 306 0" />
+              </g>
+              <path class="drip" d="M141 397c58 20 182 28 277-3" />
+            </svg>
+          </div>
+
+          <div class="poster-title">
+            <p class="eyebrow" data-i18n="heroEyebrow">Разливное пиво и напитки</p>
+            <h1 id="hero-title">Draft &amp; Go</h1>
+          </div>
+
+          <div class="poster-copy">
+            <p data-i18n="heroCopy">
+              Магазин разливного пива, spritz-коктейлей, винных напитков, кваса и лимонада.
+              Все цены указаны за 1 литр в леях.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#catalog" data-i18n="heroCatalog">Смотреть каталог</a>
+              <a class="button secondary" href="#visit" data-i18n="heroMap">Открыть карту</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-strip" aria-label="Основные категории">
+        <div>
+          <strong>10</strong>
+          <span data-i18n="statBeer">сортов пива</span>
+        </div>
+        <div>
+          <strong>6</strong>
+          <span data-i18n="statCocktails">коктейлей на розлив</span>
+        </div>
+        <div>
+          <strong>2</strong>
+          <span data-i18n="statSoft">безалкогольных напитка</span>
+        </div>
+        <div>
+          <strong>1L</strong>
+          <span data-i18n="statPrice">цена за литр</span>
+        </div>
+      </section>
+
+      <section id="catalog" class="section catalog-section" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="catalogEyebrow">Каталог</p>
+            <h2 id="catalog-title" data-i18n="catalogTitle">Ассортимент Draft &amp; Go</h2>
+          </div>
+          <p class="section-note" data-i18n="catalogNote">Цены указаны в леях за 1 литр.</p>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="Фильтр каталога">
+          <button class="filter-button active" type="button" role="tab" aria-selected="true" data-filter="all" data-i18n="filterAll">
+            Все
+          </button>
+          <button class="filter-button" type="button" role="tab" aria-selected="false" data-filter="beer" data-i18n="filterBeer">
+            Пиво
+          </button>
+          <button class="filter-button" type="button" role="tab" aria-selected="false" data-filter="spritz" data-i18n="filterSpritz">
+            Spritz
+          </button>
+          <button class="filter-button" type="button" role="tab" aria-selected="false" data-filter="wine" data-i18n="filterWine">
+            Вино
+          </button>
+          <button class="filter-button" type="button" role="tab" aria-selected="false" data-filter="soft" data-i18n="filterSoft">
+            Без алкоголя
+          </button>
+        </div>
+
+        <div class="product-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="visit" class="visit-section" aria-labelledby="visit-title">
+        <div>
+          <p class="eyebrow" data-i18n="visitEyebrow">Магазин</p>
+          <h2 id="visit-title">Draft &amp; Go</h2>
+          <p class="visit-copy" data-i18n="visitCopy">
+            Адрес и маршрут доступны на Google Maps. Для связи используйте телефон, WhatsApp или Telegram.
+          </p>
+          <a
+            class="button primary map-button"
+            href="https://www.google.com/maps/place/Draft+%26+Go/@44.3048047,28.6258725,17z/data=!4m6!3m5!1s0x40baf7001b3aa29b:0xe9bea29acd93aa23!8m2!3d44.3048047!4d28.6258725!16s%2Fg%2F11zb__znf3?entry=ttu&g_ep=EgoyMDI2MDYyMS4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noreferrer"
+            data-i18n="mapButton"
+          >
+            Открыть Google Maps
+          </a>
+        </div>
+        <div class="visit-grid">
+          <div>
+            <span class="visit-label" data-i18n="phoneLabel">Телефон</span>
+            <strong>
+              <a class="phone-link" href="tel:+380933721030">+380 93 372 1030</a>
+              <span class="contact-note">(WhatsApp, Telegram)</span>
+            </strong>
+          </div>
+          <div>
+            <span class="visit-label" data-i18n="locationLabel">Локация</span>
+            <strong>44.3048047, 28.6258725</strong>
+          </div>
+          <div>
+            <span class="visit-label">PET 1L / 2L</span>
+            <strong>1,00 lei</strong>
+          </div>
+          <div>
+            <span class="visit-label" data-i18n="serviceLabel">Формат</span>
+            <strong data-i18n="serviceValue">На розлив</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Draft &amp; Go</span>
+      <a href="#top" data-i18n="footerTop">Наверх</a>
+    </footer>
+
+    <script src="script.js?v=3"></script>
+  </body>
+</html>
