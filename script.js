@@ -120,7 +120,7 @@ const products = [
       uk: "Світле нефільтроване пшеничне пиво з м'якою свіжістю і легкою мутністю.",
     },
     price: "22",
-    art: { kind: "beer", image: "assets/products/beer-light.png", liquid: "#f6d776", foam: "#fff9df", accent: "#f0c450", label: "WB" },
+    art: { kind: "beer", image: "assets/products/beer-light.jpg", liquid: "#f6d776", foam: "#fff9df", accent: "#f0c450", label: "WB" },
   },
   {
     category: "beer",
@@ -132,7 +132,7 @@ const products = [
       uk: "Темне фільтроване пиво з хлібною глибиною, карамеллю і щільним солодовим тілом.",
     },
     price: "22",
-    art: { kind: "beer", image: "assets/products/beer-dark.png", liquid: "#5a2a16", foam: "#f4dfbd", accent: "#8a4b23", label: "DN" },
+    art: { kind: "beer", image: "assets/products/beer-dark.jpg", liquid: "#5a2a16", foam: "#f4dfbd", accent: "#8a4b23", label: "DN" },
   },
   {
     category: "beer",
@@ -144,7 +144,7 @@ const products = [
       uk: "Світлий фільтрований лагер з чистим смаком, зерновою основою і освіжаючим фінішем.",
     },
     price: "22",
-    art: { kind: "beer", image: "assets/products/beer-lager.png", liquid: "#e8aa22", foam: "#fff2c8", accent: "#d7a11e", label: "WL" },
+    art: { kind: "beer", image: "assets/products/beer-lager.jpg", liquid: "#e8aa22", foam: "#fff2c8", accent: "#d7a11e", label: "WL" },
   },
   {
     category: "beer",
@@ -156,7 +156,7 @@ const products = [
       uk: "Темний фільтрований молочний стаут з кремовою текстурою і м'якою кавовою солодкістю.",
     },
     price: "24",
-    art: { kind: "beer", image: "assets/products/beer-stout.png", liquid: "#2c1710", foam: "#f8ead1", accent: "#a56a34", label: "MS" },
+    art: { kind: "beer", image: "assets/products/beer-stout.jpg", liquid: "#2c1710", foam: "#f8ead1", accent: "#a56a34", label: "MS" },
   },
   {
     category: "beer",
@@ -168,7 +168,7 @@ const products = [
       uk: "Світле нефільтроване пиво з м'яким солодовим смаком і свіжим ароматом.",
     },
     price: "23",
-    art: { kind: "beer", image: "assets/products/beer-light.png", liquid: "#f0b833", foam: "#fff6d8", accent: "#e2a525", label: "SB" },
+    art: { kind: "beer", image: "assets/products/beer-light.jpg", liquid: "#f0b833", foam: "#fff6d8", accent: "#e2a525", label: "SB" },
   },
   {
     category: "beer",
@@ -180,7 +180,7 @@ const products = [
       uk: "Австрійський лагер з щільним солодовим профілем, чистим ароматом і виразним смаком.",
     },
     price: "32",
-    art: { kind: "beer", image: "assets/products/beer-lager.png", liquid: "#d49325", foam: "#fff1c7", accent: "#497b82", label: "AR" },
+    art: { kind: "beer", image: "assets/products/beer-lager.jpg", liquid: "#d49325", foam: "#fff1c7", accent: "#497b82", label: "AR" },
   },
   {
     category: "beer",
@@ -192,7 +192,7 @@ const products = [
       uk: "Світле фільтроване пиво з медовою м'якістю, теплим ароматом і округлим післясмаком.",
     },
     price: "22",
-    art: { kind: "beer", image: "assets/products/beer-lager.png", liquid: "#efb13a", foam: "#fff4cb", accent: "#e0a300", label: "UM" },
+    art: { kind: "beer", image: "assets/products/beer-lager.jpg", liquid: "#efb13a", foam: "#fff4cb", accent: "#e0a300", label: "UM" },
   },
   {
     category: "beer",
@@ -204,7 +204,7 @@ const products = [
       uk: "Світле фільтроване пиво віденського типу з бурштиновим відтінком і м'яким солодом.",
     },
     price: "22",
-    art: { kind: "beer", image: "assets/products/beer-lager.png", liquid: "#c87423", foam: "#fff0c6", accent: "#a85b1d", label: "VU" },
+    art: { kind: "beer", image: "assets/products/beer-lager.jpg", liquid: "#c87423", foam: "#fff0c6", accent: "#a85b1d", label: "VU" },
   },
   {
     category: "spritz",
@@ -216,7 +216,7 @@ const products = [
       uk: "Помаранчевий aperitivo з цитрусовою гірчинкою, яскравим ароматом і освіжаючою газацією.",
     },
     price: "22",
-    art: { kind: "spritz", image: "assets/products/cocktail-aperitivo.png", liquid: "#ef6d2f", accent: "#d94c22", garnish: "#ffb23d", label: "AP" },
+    art: { kind: "spritz", image: "assets/products/cocktail-aperitivo.jpg", liquid: "#ef6d2f", accent: "#d94c22", garnish: "#ffb23d", label: "AP" },
   },
   {
     category: "spritz",
@@ -228,7 +228,7 @@ const products = [
       uk: "Ягідний spritz з м'якою солодкістю, фруктовим ароматом і легкою свіжістю.",
     },
     price: "22",
-    art: { kind: "spritz", image: "assets/products/cocktail-fragolino.png", liquid: "#c93455", accent: "#ef7e8f", garnish: "#ff8fa3", label: "FR" },
+    art: { kind: "spritz", image: "assets/products/cocktail-fragolino.jpg", liquid: "#c93455", accent: "#ef7e8f", garnish: "#ff8fa3", label: "FR" },
   },
   {
     category: "spritz",
@@ -240,7 +240,7 @@ const products = [
       uk: "Ароматний spritz на вермуті з трав'яними нотами, солодкістю і легкою пряністю.",
     },
     price: "22",
-    art: { kind: "spritz", image: "assets/products/cocktail-vermouth.png", liquid: "#9c3f35", accent: "#5b8e51", garnish: "#77b46a", label: "VM" },
+    art: { kind: "spritz", image: "assets/products/cocktail-vermouth.jpg", liquid: "#9c3f35", accent: "#5b8e51", garnish: "#77b46a", label: "VM" },
   },
   {
     category: "spritz",
@@ -252,7 +252,7 @@ const products = [
       uk: "Сухий ігристий коктейль з чистим смаком, легкими бульбашками і свіжим фінішем.",
     },
     price: "22",
-    art: { kind: "spritz", image: "assets/products/cocktail-extra-dry.png", liquid: "#f7d96d", accent: "#f2bd30", garnish: "#f0c450", label: "ED" },
+    art: { kind: "spritz", image: "assets/products/cocktail-extra-dry.jpg", liquid: "#f7d96d", accent: "#f2bd30", garnish: "#f0c450", label: "ED" },
   },
   {
     category: "spritz",
@@ -264,7 +264,7 @@ const products = [
       uk: "Лавандовий spritz з квітковим ароматом, легкою солодкістю і прохолодним післясмаком.",
     },
     price: "22",
-    art: { kind: "spritz", image: "assets/products/cocktail-lavanda.png", liquid: "#b977dd", accent: "#7d4db0", garnish: "#9f7ad9", label: "LV" },
+    art: { kind: "spritz", image: "assets/products/cocktail-lavanda.jpg", liquid: "#b977dd", accent: "#7d4db0", garnish: "#9f7ad9", label: "LV" },
   },
   {
     category: "spritz",
@@ -276,7 +276,7 @@ const products = [
       uk: "Свіжий коктейль з легкою солодкістю, трав'яним акцентом і чистою газованою основою.",
     },
     price: "22",
-    art: { kind: "spritz", image: "assets/products/cocktail-hugo.png", liquid: "#f3d768", accent: "#3f9b63", garnish: "#75c986", label: "HU" },
+    art: { kind: "spritz", image: "assets/products/cocktail-hugo.jpg", liquid: "#f3d768", accent: "#3f9b63", garnish: "#75c986", label: "HU" },
   },
   {
     category: "wine",
@@ -293,7 +293,7 @@ const products = [
     },
     price: "30",
     wide: true,
-    art: { kind: "fruit", image: "assets/products/wine-fruit-single.png", liquid: "#d9355f", accent: "#f3bc22", label: "6" },
+    art: { kind: "fruit", image: "assets/products/wine-fruit-single.jpg", liquid: "#d9355f", accent: "#f3bc22", label: "6" },
   },
   {
     category: "soft",
@@ -305,7 +305,7 @@ const products = [
       uk: "Традиційний квас Uman з хлібним ароматом, м'якою кислинкою і щільним смаком.",
     },
     price: "22",
-    art: { kind: "soft", image: "assets/products/kvas.png", liquid: "#8b4f27", accent: "#d2a56d", label: "KV" },
+    art: { kind: "soft", image: "assets/products/kvas.jpg", liquid: "#8b4f27", accent: "#d2a56d", label: "KV" },
   },
   {
     category: "soft",
@@ -317,7 +317,7 @@ const products = [
       uk: "Класичний лимонад з лимонною свіжістю, легкою солодкістю і чистою газацією.",
     },
     price: "22",
-    art: { kind: "soft", image: "assets/products/lemonade.png", liquid: "#f6cf52", accent: "#5fb96f", label: "LM" },
+    art: { kind: "soft", image: "assets/products/lemonade.jpg", liquid: "#f6cf52", accent: "#5fb96f", label: "LM" },
   },
   {
     category: "soft",
@@ -329,7 +329,7 @@ const products = [
       uk: "Крижаний полуничний slush з яскравим ягідним смаком для спекотної погоди.",
     },
     price: "17",
-    art: { kind: "soft", image: "assets/products/slush-strawberry.png", liquid: "#e93d36", accent: "#ff6b6b", label: "SL" },
+    art: { kind: "soft", image: "assets/products/slush-strawberry.jpg", liquid: "#e93d36", accent: "#ff6b6b", label: "SL" },
   },
   {
     category: "soft",
@@ -341,7 +341,7 @@ const products = [
       uk: "Освіжаючий slush mojito з лаймом, м'ятою і прохолодним цитрусовим смаком.",
     },
     price: "15",
-    art: { kind: "soft", image: "assets/products/slush-mojito.png", liquid: "#9fd84d", accent: "#5fb96f", label: "MJ" },
+    art: { kind: "soft", image: "assets/products/slush-mojito.jpg", liquid: "#9fd84d", accent: "#5fb96f", label: "MJ" },
   },
 ];
 

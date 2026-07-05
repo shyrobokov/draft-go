@@ -9,7 +9,7 @@
       content="Draft & Go: разливное пиво, spritz, винные коктейли, квас и лимонад."
     >
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='16' y='14' width='32' height='36' rx='7' fill='%23152921'/%3E%3Cpath d='M22 22h20v7H22zM22 34h14v7H22z' fill='%23f0b625'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2">
   </head>
   <body>
     <header class="site-header" aria-label="Главная навигация">
@@ -33,10 +33,12 @@
         <div class="hero-poster">
           <h1 id="hero-title" class="sr-only">Draft &amp; Go</h1>
           <img
-            src="assets/hero-draft-go-poster.png"
+            src="assets/hero-draft-go-poster.jpg"
             alt="Draft & Go: винтажная афиша с бокалом пива, пивным краном, хмелем, пшеницей и снеками"
-            width="1717"
-            height="916"
+            width="1400"
+            height="747"
+            fetchpriority="high"
+            decoding="async"
           >
         </div>
         <div class="hero-panel">
@@ -143,6 +145,6 @@
       <a href="#top" data-i18n="footerTop">Наверх</a>
     </footer>
 
-    <script src="script.js?v=4"></script>
+    <script src="script.js?v=5"></script>
   </body>
 </html>

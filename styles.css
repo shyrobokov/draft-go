@@ -1243,13 +1243,14 @@ img {
   }
 
   .filter-bar {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    padding-bottom: 6px;
+    overflow-x: visible;
+    flex-wrap: wrap;
+    padding-bottom: 0;
   }
 
   .filter-button {
-    flex: 0 0 auto;
+    flex: 1 1 calc(50% - 8px);
+    min-width: 130px;
   }
 
   .product-card {
