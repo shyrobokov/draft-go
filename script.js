@@ -119,7 +119,7 @@ const products = [
       ro: "Bere blondă nefiltrată, cu prospețime fină și textură ușor tulbure.",
       uk: "Світле нефільтроване пшеничне пиво з м'якою свіжістю і легкою мутністю.",
     },
-    price: "20",
+    price: "22",
     art: { kind: "beer", image: "assets/products/beer-light.png", liquid: "#f6d776", foam: "#fff9df", accent: "#f0c450", label: "WB" },
   },
   {
@@ -131,7 +131,7 @@ const products = [
       ro: "Bere neagră filtrată, cu note de pâine, caramel și corp malțat plin.",
       uk: "Темне фільтроване пиво з хлібною глибиною, карамеллю і щільним солодовим тілом.",
     },
-    price: "20",
+    price: "22",
     art: { kind: "beer", image: "assets/products/beer-dark.png", liquid: "#5a2a16", foam: "#f4dfbd", accent: "#8a4b23", label: "DN" },
   },
   {
@@ -143,7 +143,7 @@ const products = [
       ro: "Lager blond filtrat, curat, cu bază de cereale și final răcoritor.",
       uk: "Світлий фільтрований лагер з чистим смаком, зерновою основою і освіжаючим фінішем.",
     },
-    price: "20",
+    price: "22",
     art: { kind: "beer", image: "assets/products/beer-lager.png", liquid: "#e8aa22", foam: "#fff2c8", accent: "#d7a11e", label: "WL" },
   },
   {
@@ -155,7 +155,7 @@ const products = [
       ro: "Stout negru filtrat, cremos, cu dulceață fină și note ușoare de cafea.",
       uk: "Темний фільтрований молочний стаут з кремовою текстурою і м'якою кавовою солодкістю.",
     },
-    price: "22",
+    price: "24",
     art: { kind: "beer", image: "assets/products/beer-stout.png", liquid: "#2c1710", foam: "#f8ead1", accent: "#a56a34", label: "MS" },
   },
   {
@@ -167,7 +167,7 @@ const products = [
       ro: "Bere blondă nefiltrată, cu gust moale de malț și aromă proaspătă.",
       uk: "Світле нефільтроване пиво з м'яким солодовим смаком і свіжим ароматом.",
     },
-    price: "21",
+    price: "23",
     art: { kind: "beer", image: "assets/products/beer-light.png", liquid: "#f0b833", foam: "#fff6d8", accent: "#e2a525", label: "SB" },
   },
   {
@@ -179,7 +179,7 @@ const products = [
       ro: "Lager austriac cu profil malțat plin, aromă curată și gust expresiv.",
       uk: "Австрійський лагер з щільним солодовим профілем, чистим ароматом і виразним смаком.",
     },
-    price: "30",
+    price: "32",
     art: { kind: "beer", image: "assets/products/beer-lager.png", liquid: "#d49325", foam: "#fff1c7", accent: "#497b82", label: "AR" },
   },
   {
@@ -191,7 +191,7 @@ const products = [
       ro: "Bere blondă filtrată cu miere, aromă caldă și postgust rotund.",
       uk: "Світле фільтроване пиво з медовою м'якістю, теплим ароматом і округлим післясмаком.",
     },
-    price: "20",
+    price: "22",
     art: { kind: "beer", image: "assets/products/beer-lager.png", liquid: "#efb13a", foam: "#fff4cb", accent: "#e0a300", label: "UM" },
   },
   {
@@ -203,7 +203,7 @@ const products = [
       ro: "Bere blondă filtrată de tip vienez, cu nuanță ambrată și malț fin.",
       uk: "Світле фільтроване пиво віденського типу з бурштиновим відтінком і м'яким солодом.",
     },
-    price: "20",
+    price: "22",
     art: { kind: "beer", image: "assets/products/beer-lager.png", liquid: "#c87423", foam: "#fff0c6", accent: "#a85b1d", label: "VU" },
   },
   {
@@ -304,19 +304,19 @@ const products = [
       ro: "Kvas tradițional Uman cu aromă de pâine, aciditate fină și gust plin.",
       uk: "Традиційний квас Uman з хлібним ароматом, м'якою кислинкою і щільним смаком.",
     },
-    price: "20",
+    price: "22",
     art: { kind: "soft", image: "assets/products/kvas.png", liquid: "#8b4f27", accent: "#d2a56d", label: "KV" },
   },
   {
     category: "soft",
     group: { ru: "Безалкогольные напитки", ro: "Bauturi fara alcool", uk: "Безалкогольні напої" },
-    name: { ru: "Лимонад", ro: "Limonadă", uk: "Лимонад" },
+    name: { ru: "Limonade", ro: "Limonade", uk: "Limonade" },
     description: {
       ru: "Классический лимонад с лимонной свежестью, легкой сладостью и чистой газацией.",
       ro: "Limonadă clasică, cu prospețime de lămâie, dulceață ușoară și perlare curată.",
       uk: "Класичний лимонад з лимонною свіжістю, легкою солодкістю і чистою газацією.",
     },
-    price: "20",
+    price: "22",
     art: { kind: "soft", image: "assets/products/lemonade.png", liquid: "#f6cf52", accent: "#5fb96f", label: "LM" },
   },
   {
