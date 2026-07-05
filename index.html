@@ -29,78 +29,32 @@
     </header>
 
     <main id="top">
-      <section class="hero poster-hero hero-variant-1" aria-labelledby="hero-title">
-        <div class="variant-switcher" aria-label="Варианты главной вывески">
-          <button class="variant-button active" type="button" data-variant="1" aria-pressed="true">Вариант 1</button>
-          <button class="variant-button" type="button" data-variant="2" aria-pressed="false">Вариант 2</button>
-          <button class="variant-button" type="button" data-variant="3" aria-pressed="false">Вариант 3</button>
-          <button class="variant-button" type="button" data-variant="4" aria-pressed="false">Вариант 4</button>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-poster">
+          <h1 id="hero-title" class="sr-only">Draft &amp; Go</h1>
+          <img
+            src="assets/hero-draft-go-poster.png"
+            alt="Draft & Go: винтажная афиша с бокалом пива, пивным краном, хмелем, пшеницей и снеками"
+            width="1717"
+            height="916"
+          >
         </div>
-        <div class="poster-frame">
-          <div class="poster-chip chip-good">Good times</div>
-          <div class="poster-chip chip-tap">On tap!</div>
-          <div class="poster-chip chip-cold">Cold<br>draft</div>
-          <div class="poster-chip chip-wine">Beer</div>
-          <div class="poster-chip chip-cocktails">Spritz</div>
-          <div class="poster-chip chip-snacks">Kegs</div>
-          <div class="poster-chip chip-join">Come in<br>&amp; enjoy!</div>
-
-          <div class="poster-center" aria-hidden="true">
-            <svg class="poster-illustration" viewBox="0 0 520 460" role="img">
-              <path class="poster-rays" d="M260 35a215 215 0 1 1-.1 0" />
-              <g class="barrels barrels-back">
-                <g class="barrel barrel-left">
-                  <path class="barrel-body" d="M64 165c16-34 98-34 114 0v150c-16 34-98 34-114 0z" />
-                  <path class="barrel-head" d="M64 165c16 34 98 34 114 0" />
-                  <path class="barrel-head bottom" d="M64 315c16 34 98 34 114 0" />
-                  <path class="barrel-band" d="M65 204h112M65 276h112" />
-                  <path class="wood-line" d="M96 151v184M126 149v188M156 158v170" />
-                </g>
-                <g class="barrel barrel-right">
-                  <path class="barrel-body" d="M342 165c16-34 98-34 114 0v150c-16 34-98 34-114 0z" />
-                  <path class="barrel-head" d="M342 165c16 34 98 34 114 0" />
-                  <path class="barrel-head bottom" d="M342 315c16 34 98 34 114 0" />
-                  <path class="barrel-band" d="M343 204h112M343 276h112" />
-                  <path class="wood-line" d="M374 151v184M404 149v188M434 158v170" />
-                </g>
-              </g>
-              <g class="barrels barrels-front">
-                <g class="barrel barrel-main">
-                  <path class="barrel-body" d="M161 112c28-48 170-48 198 0v214c-28 50-170 50-198 0z" />
-                  <path class="barrel-head" d="M161 112c28 48 170 48 198 0" />
-                  <path class="barrel-head bottom" d="M161 326c28 50 170 50 198 0" />
-                  <path class="barrel-band" d="M162 160h196M162 282h196" />
-                  <path class="wood-line" d="M204 91v257M241 82v277M279 82v277M316 91v257" />
-                  <circle class="barrel-plug" cx="260" cy="220" r="28" />
-                  <path class="tap-mark" d="M238 220h44M260 198v44" />
-                </g>
-                <path class="keg-shadow" d="M118 366c78 32 222 35 306 0" />
-              </g>
-              <path class="drip" d="M141 397c58 20 182 28 277-3" />
-            </svg>
-          </div>
-
-          <div class="poster-title">
-            <p class="eyebrow" data-i18n="heroEyebrow">Разливное пиво и напитки</p>
-            <h1 id="hero-title">Draft &amp; Go</h1>
-          </div>
-
-          <div class="poster-copy">
-            <p data-i18n="heroCopy">
-              Магазин разливного пива, spritz-коктейлей, винных напитков, кваса и лимонада.
-              Все цены указаны за 1 литр в леях.
-            </p>
-            <div class="hero-actions">
-              <a class="button primary" href="#catalog" data-i18n="heroCatalog">Смотреть каталог</a>
-              <a class="button secondary" href="#visit" data-i18n="heroMap">Открыть карту</a>
-            </div>
+        <div class="hero-panel">
+          <p class="eyebrow" data-i18n="heroEyebrow">Разливное пиво и напитки</p>
+          <p data-i18n="heroCopy">
+            Магазин разливного пива, spritz-коктейлей, винных напитков, кваса и лимонада.
+            Все цены указаны за 1 литр в леях.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#catalog" data-i18n="heroCatalog">Смотреть каталог</a>
+            <a class="button secondary" href="#visit" data-i18n="heroMap">Открыть карту</a>
           </div>
         </div>
       </section>
 
       <section class="quick-strip" aria-label="Основные категории">
         <div>
-          <strong>10</strong>
+          <strong>8</strong>
           <span data-i18n="statBeer">сортов пива</span>
         </div>
         <div>
@@ -108,7 +62,7 @@
           <span data-i18n="statCocktails">коктейлей на розлив</span>
         </div>
         <div>
-          <strong>2</strong>
+          <strong>4</strong>
           <span data-i18n="statSoft">безалкогольных напитка</span>
         </div>
         <div>
@@ -156,7 +110,7 @@
           </p>
           <a
             class="button primary map-button"
-            href="https://www.google.com/maps/place/Draft+%26+Go/@44.3048047,28.6258725,17z/data=!4m6!3m5!1s0x40baf7001b3aa29b:0xe9bea29acd93aa23!8m2!3d44.3048047!4d28.6258725!16s%2Fg%2F11zb__znf3?entry=ttu&g_ep=EgoyMDI2MDYyMS4wIKXMDSoASAFQAw%3D%3D"
+            href="https://www.google.com/maps/search/?api=1&query=Strada%20Prelungirea%20D12%203%2C%20905700%20Mamaia-Sat"
             target="_blank"
             rel="noreferrer"
             data-i18n="mapButton"
@@ -164,23 +118,19 @@
             Открыть Google Maps
           </a>
         </div>
-        <div class="visit-grid">
-          <div>
+        <div class="visit-grid visit-row">
+          <div class="visit-item">
             <span class="visit-label" data-i18n="phoneLabel">Телефон</span>
             <strong>
               <a class="phone-link" href="tel:+380933721030">+380 93 372 1030</a>
               <span class="contact-note">(WhatsApp, Telegram)</span>
             </strong>
           </div>
-          <div>
-            <span class="visit-label" data-i18n="locationLabel">Локация</span>
-            <strong>44.3048047, 28.6258725</strong>
+          <div class="visit-item visit-address">
+            <span class="visit-label" data-i18n="locationLabel">Адрес</span>
+            <strong>Strada Prelungirea D12 3, 905700 Mamaia-Sat</strong>
           </div>
-          <div>
-            <span class="visit-label">PET 1L / 2L</span>
-            <strong>1,00 lei</strong>
-          </div>
-          <div>
+          <div class="visit-item">
             <span class="visit-label" data-i18n="serviceLabel">Формат</span>
             <strong data-i18n="serviceValue">На розлив</strong>
           </div>
@@ -193,6 +143,6 @@
       <a href="#top" data-i18n="footerTop">Наверх</a>
     </footer>
 
-    <script src="script.js?v=3"></script>
+    <script src="script.js?v=4"></script>
   </body>
 </html>
